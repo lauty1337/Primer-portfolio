@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
+
+
+@font-face {
+  font-family: 'Onest Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/onest:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@theme{
+    /*Colores*/
+    /*Espacio (Widht y Height)*/
+    /*Fuentes*/
+    --font-onest: 'Onest Variable';
+    /*Breakpoints*/
+    --breakpoint-xs: 360px;
+}
+
+@layer components{
+  .nav-link {
+    @apply flex items-center gap-x-2 hover:scale-105 hover:font-semibold transition-all;
+  }
+  .badge-link {
+    @apply rounded-full border  border-white/10 flex  items-center gap-x-2 py-2 px-4 bg-white/5 hover:scale-105 hover:bg-white hover:text-black transition;
+  }
+  /*Projects*/
+  .project-container {
+    @apply flex flex-col p-4 rounded-lg bg-black/60 border border-white/10 backdrop-blur-3xl w-full shadow shadow-black hover:shadow-2xl transition-all duration-300;
+  }
+  .project-title {
+    @apply flex justify-center items-center text-xl font-light mt-5
+  }
+  .project-tech-container {
+    @apply flex flex-wrap w-full items-center  mt-3 gap-2 justify-center
+  }
+  .project-tech {
+    @apply  inline-flex items-center shrink-0 text-white/65 rounded-md px-3 py-0.5 text-sm gap-x-2
+  }
+  .project-link {
+    @apply flex mt-5 gap-x-2 border items-center justify-center text-sm border-white/20 bg-black/90 rounded-xl py-1 px-3 hover:bg-white hover:text-black hover:scale-105 transition flex-1;
+  }
+  .skill-container {
+    @apply flex flex-col items-center gap-y-2 font-light hover:scale-105 duration-300 transition-all;
+  }
+  .skill-icon {
+    @apply size-7
+  }
+  .skill-info {
+    @apply  opacity-80 text-xs text-center
+  }
+}

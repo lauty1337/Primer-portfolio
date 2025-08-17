@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PortFolio de Lautaro Sanchez Visser, un futuro desarrollador Full-Stack con 3 meses de experiencia.">
+    <meta name="author" content="Lautaro Sanchez Visser">
+    <meta name="keywords" content="Lautaro Sanchez Visser, PortFolio, Full-Stack Developer, Web Development, Junin, Argentina">
+    <link rel="icon" href="/public/images/devicon.webp" href="/favicon.ico">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;700&display=swap">
+    <link rel="preload" as="image" href="/public/icons/icons.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Portfolio de LSV | En desarrollo</title>
+</head>
+
+<body class="font-onest text-black dark:text-white  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+    <header class="sticky top-2 mx-auto w-fit  py-2 px-4 bg-black/40 border border-white/10 rounded-full shadow-2xs shadow-black backdrop-blur-3xl z-50">
+        <nav class="flex gap-x-3 text-xs opacity-80 lg:text-sm lg:gap-x-5">
+            <a href="#hero" class="nav-link">
+                <svg class="size-4">
+                    <use href="/public/icons/icons.svg#home-icon"></use>
+                </svg>
+                Inicio
+            </a>
+            <a href="#projects" class="nav-link">
+                <svg class="size-4">
+                    <use href="/public/icons/icons.svg#folder-icon"></use>
+                </svg>
+                Proyectos
+            </a>
+            <a href="#about" class="nav-link">
+                <svg class="size-4">
+                    <use href="/public/icons/icons.svg#about-icon"></use>
+                </svg>
+                Sobre mi
+            </a>
+            <a href="#techs" class="nav-link">
+                <svg class="size-4">
+                    <use href="/public/icons/icons.svg#dev-icon"></use>
+                </svg>
+                Tecnologias
+            </a>
+        </nav>
+    </header>
+    <main class="mx-auto px-4 py-10 lg:w-3xl lg:py-44">
+        <section class="py-16 scroll-m-20 lg:py-28" id="hero">
+            <img 
+            src="public/images/logo yo.webp" 
+            alt="Foto de Lautaro Sanchez Visser"
+            decoding="async"
+            fetchpriority="high"
+            class="size-14 rounded-full object-cover mb-4 shadow-md shadow-black"
+            />
+            <h1 class=" text-4xl font-bold pb-10 lg:text-5xl">
+                Hola, soy Lauty
+                <span class="inline-block bg-blue-100 w-fit text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded shadow-2xs shadow-black dark:bg-blue-900 dark:text-blue-300">
+                    Disponible para trabajar
+                </span>
+            </h1>
+            <p class="text-xl opacity-80 text-wrap">
+                3 meses de experiencia. Futuro desarrollador de paginas web Full-Stack. De <span class="text-cyan-300">Junin, Argentina.</span> <span class="text-amber-200">Especializandome en Full-Stack development</span>
+            </p>
+            <nav class="mt-10">
+                <ul class="flex flex-wrap gap-4 ">
+                    <a 
+                    href="https://www.linkedin.com/feed/" class="badge-link"
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                        <svg class="size-4">
+                            <use href="/public/icons/icons.svg#linkedin-icon"></use>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a 
+                    href="https://github.com/lauty1337" class="badge-link"
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                        <svg class="size-4">
+                            <use href="/public/icons/icons.svg#github-icon"></use>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a 
+                    href="mailto:lautarosanchezvisser@gmail.com" class="badge-link"
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                        <svg class="size-4">
+                            <use href="/public/icons/icons.svg#mail-icon"></use>
+                        </svg>
+                        lautarosanchezvisser@gmail.com
+                    </a>
+                </ul>
+            </nav>
+        </section>
+        <section class="py-16 scroll-m-20 lg:py-28" id="projects">
+            <h2 class="text-3xl flex gap-x-3 items-center font-bold">
+                <svg class="size-6">
+                    <use href="/public/icons/icons.svg#folder-icon"></use>
+                </svg>
+                Futuros proyectos
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 mt-10 gap-6">
+                <article class="project-container">
+
+                    <img
+                    src="/public/images/AirBnb.webp"
+                    width="1200" height="800"
+                    alt="Foto de un proyecto de AirBnb" 
+                    loading="lazy" decoding="async"
+                    class="w-full h-auto"
+                    />
+
+                    <h3 class="project-title">
+                        AirBnb 
+                    </h3>
+                    <div class="project-tech-container">
+                        <span class="project-tech">
+                            <svg class="size-5">
+                                <use href="/public/icons/icons.svg#html-icon"></use>
+                            </svg>
+                            HTML
+                        </span>
+                        <span class="project-tech">
+                            <svg class="size-5">
+                                <use href="/public/icons/icons.svg#tailwindcss-icon"></use>
+                            </svg>
+                            TailwindCSS
+                        </span>
+                        <span class="project-tech">
+                            <svg class="size-5">
+                                <use href="/public/icons/icons.svg#javascript-icon"></use>
+                            </svg>
+                            JavaScript
+                        </span>
+                    </div>
+                    <p class="mt-5 text-sm font-light opacity-80">
+                        Una pagina de venta y alquiler de departamentos en todos los lugares.
+                    </p>
+                    <nav class="flex gap-x-3">
+                        <a href="" class="project-link">
+                            <svg class="size-6">
+                                <use href="/public/icons/icons.svg#web-icon"></use>
+                            </svg>
+                            Pagina web
+                        </a>
+                        <a href="" class="project-link">
+                            <svg class="size-6">
+                                <use href="/public/icons/icons.svg#github-icon"></use>
+                            </svg>
+                            Codigo
+                        </a>
+                    </nav>
+                </article>
+                <article class="project-container">
+                    <img 
+                        src="/public/images/AM Vehiculos.webp" 
+                        alt="Foto de un proyecto de AM Vehiculos" 
+                        loading="lazy" decoding="async"
+                        width="1200" height="800"
+                        class="w-full h-auto"
+                    />
+                    <h3 class="project-title">
+                        AM Vehiculos
+                    </h3>
+                    <div class="project-tech-container">
+                        <span class="project-tech">
+                            <svg class="size-5">
+                                <use href="/public/icons/icons.svg#html-icon"></use>
+                            </svg>
+                            HTML
+                        </span>
+                        <span class="project-tech">
+                            <svg class="size-5">
+                                <use href="/public/icons/icons.svg#tailwindcss-icon"></use>
+                            </svg>
+                            TailwindCSS
+                        </span>
+                        <span class="project-tech">
+                            <svg class="size-5">
+                                <use href="/public/icons/icons.svg#typescript-icon"></use>
+                            </svg>
+                            TypeScript
+                        </span>
+                    </div>
+                    <p class="mt-5 text-sm font-light opacity-80">
+                        Una pagina de venta de autos de coleccion a escala
+                    </p>
+                    <nav class="flex gap-x-3">
+                        <a href="" class="project-link">
+                            <svg class="size-6">
+                                <use href="/public/icons/icons.svg#web-icon"></use>
+                            </svg>
+                            Pagina web
+                        </a>
+                        <a href="" class="project-link">
+                            <svg class="size-6">
+                                <use href="/public/icons/icons.svg#github-icon"></use>
+                            </svg>
+                            Codigo
+                        </a>
+                    </nav>
+                </article>
+                <article class="project-container">
+                    <img 
+                        src="/public/images/PortFolio.webp" 
+                        alt="Foto del PortFolio de LSV"
+                        width="1200" height="800"
+                        class="w-full h-auto"
+                        loading="lazy" decoding="async"
+                    />
+                    <h3 class="project-title">
+                        PortFolio de LSV
+                    </h3>
+                    <div class="project-tech-container">
+                        <span class="project-tech">
+                            <svg class="size-5">
+                                <use href="/public/icons/icons.svg#astro-icon"></use>
+                            </svg>
+                            Astro
+                        </span>
+                        <span class="project-tech">
+                            <svg class="size-5">
+                                <use href="/public/icons/icons.svg#tailwindcss-icon"></use>
+                            </svg>
+                            TailwindCSS
+                        </span>
+                        <span class="project-tech">
+                            <svg class="size-5 ">
+                                <use href="/public/icons/icons.svg#typescript-icon"></use>
+                            </svg>
+                            TypeScript
+                        </span>
+                        <span class="project-tech ">
+                            <svg class="size-5 shrink-0">
+                                <use href="/public/icons/icons.svg#react-icon"></use>
+                            </svg>
+                            React
+                        </span>
+                    </div>
+                    <p class="mt-5 text-sm font-light opacity-80">
+                        Una pagina de venta de autos de coleccion a escala
+                    </p>
+                    <nav class="flex gap-x-3">
+                        <a href="" class="project-link">
+                            <svg class="size-6">
+                                <use href="/public/icons/icons.svg#web-icon"></use>
+                            </svg>
+                            Pagina web
+                        </a>
+                        <a href="" class="project-link">
+                            <svg class="size-6">
+                                <use href="/public/icons/icons.svg#github-icon"></use>
+                            </svg>
+                            Codigo
+                        </a>
+                    </nav>
+                </article>
+            </div>
+        </section>
+        <section class="py-5 scroll-m-20" id="techs">
+            <h2 class="text-3xl flex gap-x-3 items-center font-bold">
+                <svg class="size-6">
+                    <use href="/public/icons/icons.svg#dev-icon"></use>
+                </svg>
+                Tecnologias
+            </h2>
+            <ul class="grid grid-cols-3 lg:grid-cols-6 mt-10 gap-5 text-sm">
+                
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#html-icon"></use>
+                    </svg>
+                    HTML
+                    <span class="skill-info text-emerald-700" title="Aprendido" aria-label="Aprendido">
+                        (Aprendido)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#css-icon"></use>
+                    </svg>
+                    CSS
+                    <span class="skill-info text-emerald-700" title="Aprendido" aria-label="Aprendido">
+                        (Aprendido)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#tailwindcss-icon"></use>
+                    </svg>
+                    TailwindCSS
+                    <span class="skill-info text-emerald-700" title="Aprendido" aria-label="Aprendido">
+                        (Aprendido)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#javascript-icon"></use>
+                    </svg>
+                    JavaScript
+                    <span class="skill-info text-gray-700" title="En proceso" aria-label="En proceso">
+                        (En proceso)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#typescript-icon"></use>
+                    </svg>
+                    TypeScript
+                    <span class="skill-info text-gray-700" title="En proceso" aria-label="En proceso">
+                        (En proceso)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#react-icon"></use>
+                    </svg>
+                    React
+                    <span class="skill-info text-gray-700" title="En proceso" aria-label="En proceso">
+                        (En proceso)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#astro-icon"></use>
+                    </svg>
+                    Astro
+                    <span class="skill-info text-gray-700" title="En proceso" aria-label="En proceso">
+                        (En proceso)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#nodejs-icon"></use>
+                    </svg>
+                    NodeJS
+                    <span class="skill-info text-gray-700" title="En proceso" aria-label="En proceso">
+                        (En proceso)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#mysql-icon"></use>
+                    </svg>
+                    MySQL
+                    <span class="skill-info text-gray-700" title="En proceso" aria-label="En proceso">
+                        (En proceso)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#vite-icon"></use>
+                    </svg>
+                    Vite
+                    <span class="skill-info text-gray-700" title="En proceso" aria-label="En proceso">
+                        (En proceso)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#nextjs-icon"></use>
+                    </svg>
+                    NextJS
+                    <span class="skill-info text-gray-700" title="En proceso" aria-label="En proceso">
+                        (En proceso)
+                    </span>
+                </li>
+
+                <li class="skill-container">
+                    <svg class="skill-icon">
+                        <use href="/public/icons/icons.svg#express-icon"></use>
+                    </svg>
+                    Express
+                    <span class="skill-info text-gray-700" title="En proceso" aria-label="En proceso">
+                        (En proceso)
+                    </span>
+                </li>
+            </ul>
+        </section>
+        <section class="pt-16 scroll-mt-20 " id="about">
+            <h2 class="text-3xl flex gap-x-3 items-center font-bold">
+                <svg class="size-6">
+                    <use href="/public/icons/icons.svg#about-icon"></use>
+                </svg>
+                Sobre mi
+            </h2>
+            <article class="flex flex-col gap-y-5 mt-10 lg:flex-row lg:gap-x-10">
+                <figure class="justify-center items-center flex rotate-3 lg:flex-1/2 ">
+                    <img 
+                    class=" object-cover size-96  mask-radial-from-0 rounded-md shadow-2xs shadow-black"
+                    src="/public/images/logo yo.webp" 
+                    alt="Foto de Lautaro Sanchez Visser"
+                    />
+                </figure>
+                <div class="font-medium text-sm max-w-prose opacity-80 mt-10 flex flex-col gap-y-3 lg:flex-1/2">
+                <p>
+                    Me llamo Lautaro Sanchez Visser, Empeze en la programacion hace 3 meses, actualmente estoy <span class="text-cyan-700 font-mono">Estudiando Ingenieria en Informatica en la UNNOBA, y aparte soy autodidacta, tomando cursos de midudev y Soy Dalto.</span>
+                </p>
+                <p>
+                    Alguno de mis futuros proyectos incluyen <span class="text-cyan-700 font-mono">realizar un E-commerce de venta de autos a escala de coleccion, y una de cobranzas de prestamo</span> Aunque estoy en proceso de aprender los lenguajes necesarios para realizar este y todo tipo de proyectos a futuro.
+                </p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="p-4 items-center gap-x-6 opacity-80 text-xs mx-auto flex justify-between lg:w-3xl lg:pb-10 ">
+        <span>&copy; 2025 Lautaro Sanchez Visser </span>
+        <nav class="flex gap-x-5 justify-end">
+            <a href="#hero" class="hover:underline">Inicio</a>
+            <a href="#about" class="hover:underline">Sobre mi</a>
+            <a href="#projects" class="hover:underline">Proyectos</a>
+            <a href="#techs" class="hover:underline">Tecnologias</a>
+        </nav>
+    </footer>
+</body>
+</html>
