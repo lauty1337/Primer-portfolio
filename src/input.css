@@ -21,7 +21,7 @@
 
 @layer components{
   .nav-link {
-    @apply flex items-center gap-x-2 hover:scale-105 hover:font-semibold transition-all;
+    @apply flex items-center gap-x-2 text-white opacity-70 hover:opacity-100 transition-all duration-300;
   }
   .badge-link {
     @apply rounded-full border  border-white/10 flex  items-center gap-x-2 py-2 px-4 bg-white/5 hover:scale-105 hover:bg-white hover:text-black transition;
